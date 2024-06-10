@@ -44,7 +44,7 @@ set expandtab
 " autoindent in new line
 set autoindent
 
-" Show the matching part of pairs (), {},[]
+" Show the matching part of pairs (), {}, []
 set showmatch
 
 " Remove trailing whitespace from Python and Fortran files
