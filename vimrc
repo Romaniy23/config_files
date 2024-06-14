@@ -20,15 +20,15 @@ set mouse=a
 syntax on
 
 " Highlight current line
-"set cursorline
-":highlight Cursorline cterm=bold ctermbg=black
+set cursorline
+:highlight Cursorline cterm=bold ctermbg=black
 
 " Enable highlight search pattern
 set hlsearch
 
 " Enable smartcase search sensitivity
-set ignorecase
-set smartcase
+"set ignorecase
+"set smartcase
 
 " Indentation using spaces
 " width of tab character
@@ -62,4 +62,5 @@ endif
 set termguicolors
 
 " Vim colorscheme
-"colorscheme koehler
+set bg=dark
+colorscheme gruvbox 
