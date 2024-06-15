@@ -49,9 +49,9 @@ set showmatch
 
 " Remove trailing whitespace from Python and Fortran files
 autocmd BufWritePre *.py :%s/\s\+$//e
-autocmd BufWritePre *.f90 :%s/\s\+$//e
-autocmd BufWritePre *.f95 :%s/\s\+$//e
-autocmd BufWritePre *.for :%s/\s\+$//e
+"autocmd BufWritePre *.f90 :%s/\s\+$//e
+"autocmd BufWritePre *.f95 :%s/\s\+$//e
+"autocmd BufWritePre *.for :%s/\s\+$//e
 
 " Enable color themes
 if !has('gui_running')
