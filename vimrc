@@ -21,7 +21,7 @@ syntax on
 
 " Highlight current line
 set cursorline
-:highlight Cursorline cterm=bold ctermbg=black
+highlight Cursorline cterm=bold ctermbg=black
 
 " Enable highlight search pattern
 set hlsearch
@@ -38,7 +38,7 @@ set softtabstop=4
 " determines the amount of whitespace to add in normal mode
 set shiftwidth=4
 " text wrap width
-set textwidth=79
+set textwidth=100
 " when on use space instead of tab
 set expandtab
 " autoindent in new line
